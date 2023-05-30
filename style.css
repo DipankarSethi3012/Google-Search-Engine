@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.991);
+    /* overflow: scroll; */
+}
+.bgvideo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  opacity: 100%;
+
+}
+@media (min-aspect-ratio: 16/9){
+  .bgvideo{
+    height: auto;
+    width: 100%;;
+  }
+}
+@media (max-aspect-ratio: 16/9){
+  .bgvideo{
+    height: 100%;
+    width: auto;;
+  }
+}
+
+.btn{
+  background-color: rgb(118, 118, 255);
+  border: 2px solid black;
+  color: rgb(131, 125, 125);
+  margin: 10px 20px 0 0 ;
+  transition: all .3s;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border: 1px slod black;
+  border-radius: 360px;
+  padding: 5px 13px;
+  position: relative;
+  bottom: 2px;
+}
+.btn:hover{
+  background-color: rgb(60, 60, 248);
+  border-radius: 360px;
+  transform: scale(1.03);
+}
+
+.appbutton{
+  outline: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: none;
+  padding: 0;
+  transition: all .2s;
+  border: 1px solid grey;
+  border-radius: 100%;
+  margin-right:10px ;
+}
+.appbutton:hover{
+  background-color: grey;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 100%;
+}
+.header_left{
+  /* margin: 20px 20px; */
+  display: inline-block;
+}
+.headerlefta{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.gl{
+    height: 15px;
+    width: 15px;
+    display: inline;
+}
+.ap{
+    text-decoration: none;
+    display: inline;
+}
+.header_left img{
+    padding-left: 10px ;
+    filter: invert(100%);
+}
+.nav {
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: whitesmoke;
+}
+.nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    position: relative;
+    bottom: 4px;
+    margin-right: 10px;
+    transition: all .3s;
+
+}
+.nav a:hover{
+    text-decoration: underline;
+    font-size: 18px;
+}
+/* settig up google apss logo  */
+.material-symbols-outlined{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+
+}
+/* setting google logo in center   */
+.googleimg{
+    position: absolute;
+    top: 120px;
+    left: 650px;
+    height: 100x;
+    width: 250px;
+    filter: invert(100%);
+}
+.search{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    width: 37%;
+    filter: invert(100%);
+    border-radius: 20px;
+    overflow: visible;
+    /* box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3); */
+}
+/* setting up search bar  */
+/* .bar{
+    width: 550px;
+    border: 2px solid  black;
+    height: 40px;
+     border-radius: 20px; 
+     margin: 0px auto;
+     padding-left: 35px;
+     font-size: 15px;
+     padding-right: 90px; */
+
+/* } */
+
+.micbtn{
+position: absolute;
+height: 30px;
+width: 35px;
+top: 255px;
+right: 540px;
+
+}
+.lensbtn{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 255px;
+    right: 500px;
+}
+.tele-img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 370px;
+    left: 520px;
+    filter: invert(100%);
+    border-radius: 50px;
+    z-index: -1;
+}
+#tele{
+    position: absolute;
+    top: 410px;
+    left: 520px;
+    color: whitesmoke;
+    text-decoration: none;
+    z-index: -1;
+}
+.two{
+  position: relative;
+  left: 60px;
+  bottom: 10px;
+}
+.two div:hover{
+    cursor: pointer;
+}
+.two div a p:hover{
+    text-decoration: underline;
+}
+/* \setting up Youtube  */
+.ytimg{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 370px;
+    border-radius: 50px;
+    left: 640px;
+    filter: invert(100%);
+    z-index: -1;
+}
+.yt{
+    position: absolute;
+    top: 429px;
+    left: 643px;
+    text-decoration: none;
+    color: whitesmoke;
+    z-index: -1;
+}
+.wplogo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 760px;
+    top: 375px;
+    filter: invert(100%);
+    border-radius: 50px;
+    z-index: -1;
+
+}
+.wp{
+    position: absolute;
+    text-decoration: none;
+    top: 430px;
+    left: 750px;
+    color: whitesmoke;
+    z-index: -1;
+}
+/* setting pw skills */
+.pwlogo{
+    height: 70px;
+    width: 100px;
+    position: absolute;
+    top: 370px;
+    left: 850px;
+    margin: 3px;
+    border-radius: 100px;
+    filter: invert(100%);
+    border-width: 2px;
+    z-index: -1;
+}
+.pw{
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    top: 432px;
+    left: 870px;
+    z-index: -1;
+
+}
+.cube{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 480px;
+  transform: rotateX(-30deg);
+  animation: animate 4s linear infinite;
+}
+@keyframes animate {
+  0%{
+    transform: rotateX(-30deg) rotateY(0deg);
+  }
+  100%{
+    transform: rotateX(-30deg) rotateY(360deg);
+  }
+}
+
